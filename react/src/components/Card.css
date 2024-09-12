@@ -1,0 +1,14 @@
+
+.card {
+    width: 350px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgb(61, 2, 100);
+    padding: 10px 30px;
+    color: white;
+    margin: 10px 10px;
+}
+
+.card h2 {
+    margin-bottom: 3px;
+}
