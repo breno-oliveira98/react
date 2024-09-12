@@ -5,12 +5,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+body, html {
     background-color: rgb(49, 49, 49);
+    width: 100%;
 }
 
 .container {
+    padding-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 15px;
+    justify-items: center;
+    flex: 1;
 }

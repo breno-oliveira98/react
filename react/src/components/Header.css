@@ -4,10 +4,15 @@
     background-color: gray;
     align-items: center;
     padding: 15px 15px;
+    height: 8vh;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 .logo {
     color: white;
+    font-size: 30px;
+    margin-left: 20px;
 }
 
 .nav ul {
@@ -15,7 +20,7 @@
 }
 
 .nav li {
-    margin-left: 10px;
+    margin-left: 20px;
     list-style: none;
 }
 

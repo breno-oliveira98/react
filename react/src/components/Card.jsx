@@ -1,12 +1,15 @@
 import "./Card.css";
-function Card({ title, subtitle, description }) {
+function Card({ title, subtitle, description, logo }) {
   return (
     <>
       <div className="card">
-        <h2 className="title">{title}</h2>
-        <p className="subtitle">{subtitle}</p>
-        <br />
-        <p className="description">{description}</p>
+        <div className="logo-card">{logo}</div>
+        <div className="section">
+          <h2 className="title">{title}</h2>
+          <p className="subtitle">{subtitle}</p>
+          <br />
+          <p className="description">{description}</p>
+        </div>
       </div>
     </>
   );

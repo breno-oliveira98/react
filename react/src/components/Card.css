@@ -1,14 +1,24 @@
 
 .card {
+    display: flex;
     width: 350px;
     height: fit-content;
     border-radius: 10px;
     background-color: rgb(61, 2, 100);
-    padding: 10px 30px;
+    padding: 15px 30px 15px 20px;
     color: white;
     margin: 10px 10px;
 }
 
-.card h2 {
+.card .title {
     margin-bottom: 3px;
+}
+
+.card .description {
+    font-weight: 600;
+}
+
+.card .logo-card {
+    margin-right: 5px;
+    font-size: 30px;
 }
